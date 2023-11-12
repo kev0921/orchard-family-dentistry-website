@@ -15,7 +15,7 @@ const Appointment = () => {
         <input type="hidden" name="_next" value="https://orchardfamilydentistry.ca/thankyou"/>
         <input type="hidden" name="_template" value="table"/>
 
-        <label for="name">First name:</label>
+        <label for="name">Full name:</label>
         <input
           className="border-opacity-100 w-full border px-4 border-gray-800 py-2"
           type="text"
