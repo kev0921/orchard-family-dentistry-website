@@ -13,12 +13,12 @@ const Banner = () => {
     >
       <img src={logo} alt="logo" className="w-1/2 md:w-1/3 md:mt-8 mb-6 md:mb-0" />
 
-      <div className="container text-center text-white py-0 md:py-10 lg:py-10 xl:py-20">
+      <div className="container text-center text-white py-0 md:py-10 lg:py-10 xl:py-18">
         <h1 className="text-3xl capitalize mb-0 mt-2 font-semibold md:font-normal md:mb-5 md:mt-0 text-white md:text-6xl">
           A Burlington Tradition of Trusted & Caring Dentistry
         </h1>
         <p className="mb-10 text-gray-200 text-md md:text-2xl md:mx-auto md:mb-8 md:w-2/3 ">
-          Welcome Weekdays Until 8pm & Weekends! We Bill Your Insurance Directly
+          Welcome Weekdays Until 8pm & Weekends! We Bill Your Insurance Directly.
         </p>
         <div>
           <Link
