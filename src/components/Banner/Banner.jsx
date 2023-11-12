@@ -15,11 +15,10 @@ const Banner = () => {
 
       <div className="container text-center text-white py-0 md:py-10 lg:py-10 xl:py-20">
         <h1 className="text-3xl capitalize mb-0 mt-2 font-semibold md:font-normal md:mb-5 md:mt-0 text-white md:text-6xl">
-          Eat Wisely, Smile Nicely
+          A Burlington Tradition of Trusted & Caring Dentistry
         </h1>
         <p className="mb-10 text-gray-200 text-md md:text-2xl md:mx-auto md:mb-8 md:w-2/3 ">
-          Discover the smart way to find the perfect dentist.
-          Get matched with a great dentist today. It's time for a healthy smile.
+          Welcome Weekdays Until 8pm & Weekends! We Bill Your Insurance Directly
         </p>
         <div>
           <Link
