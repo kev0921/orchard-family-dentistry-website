@@ -10,7 +10,7 @@ const Appointment = () => {
       <p className="text-gray-400 py-2 text-center">
         Have a question or just want to say hi? We'd love to hear from you.
       </p>
-      <form action="https://formsubmit.co/info@orchardfamilydentistry.ca" method="POST">
+      <form action="https://formsubmit.co/7ffa5d4b5fd6746e5af40950b2cba8f4" method="POST">
         <input type="hidden" name="_subject" value="Appointment"/>
         <input type="hidden" name="_next" value="https://orchardfamilydentistry.ca/thankyou"/>
         <input type="hidden" name="_template" value="table"/>
