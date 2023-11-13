@@ -71,7 +71,7 @@ const Contact = () => {
             <div className="flex items-center py-4">
               <i className="far fa-envelope text-4xl text-secondary"></i>
               <div className="pl-4">
-                <p className="text-2xl">orchardfamilydentist@gmail.com</p>
+                <p className="text-2xl">info@orchardfamilydentistry.ca</p>
               </div>
             </div>
 
