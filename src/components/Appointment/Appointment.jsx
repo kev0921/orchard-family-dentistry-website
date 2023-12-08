@@ -29,7 +29,7 @@ const Appointment = () => {
           className="border-opacity-100 w-full border px-4 border-gray-800 py-2"
           type="text"
           id="name"
-          name="name"
+          name="user_name"
           placeholder="Your full name"
           required
         />
@@ -40,7 +40,7 @@ const Appointment = () => {
           className="border-opacity-100 w-full border px-4 border-gray-800 py-2"
           type="email"
           id="email"
-          name="email"
+          name="user_email"
           placeholder="Your email address"
           required
         />
@@ -51,7 +51,7 @@ const Appointment = () => {
           className="border-opacity-100 w-full border px-4 border-gray-800 py-2"
           type="text"
           id="text"
-          name="text"
+          name="user_phone"
           placeholder="123-123-1234"
           required
         />
@@ -62,7 +62,7 @@ const Appointment = () => {
           className="border-opacity-100 w-full border px-4 border-gray-800 py-2"
           type="text"
           id="text"
-          name="text"
+          name="user_date"
           placeholder="DD/MM/YYYY"
           required
         />
