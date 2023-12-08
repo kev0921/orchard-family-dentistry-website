@@ -8,7 +8,7 @@ const Appointment = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    navigate('/thankyou');
+    navigate.push('/thankyou');
 
     emailjs.sendForm('service_65i5bdp', 'template_cibrusi', form.current, 'iNrzM-8pnRp1ikVGR')
       .then((result) => {
