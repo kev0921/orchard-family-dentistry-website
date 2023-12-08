@@ -1,11 +1,14 @@
 import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Appointment = () => {
   const form = useRef();
+  const navigate = useNavigate();
 
   const sendEmail = (e) => {
     e.preventDefault();
+    navigate('/thankyou');
 
     emailjs.sendForm('service_65i5bdp', 'template_cibrusi', form.current, 'iNrzM-8pnRp1ikVGR')
       .then((result) => {
