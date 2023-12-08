@@ -14,7 +14,7 @@ const Appointment = () => {
         <input type="hidden" name="_subject" value="Appointment"/>
         <input type="hidden" name="_next" value="https://orchardfamilydentistry.ca/thankyou"/>
         <input type="hidden" name="_template" value="table"/>
-        <input type="hidden" name="_captcha" value="true"></input>
+        <input type="hidden" name="_captcha" value="false"></input>
 
         <label for="name">Full name:</label>
         <input
