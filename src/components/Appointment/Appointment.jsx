@@ -12,7 +12,7 @@ const Appointment = () => {
       </p>
       <form action="https://formsubmit.co/info@orchardfamilydentistry.ca" method="POST">
         <input type="hidden" name="_subject" value="Appointment"/>
-        <input type="hidden" name="_next" value="https://orchardfamilydentistry.ca/thankyou"/>
+        <input type="hidden" name="_next" value="https://orchardfamilydentistry.ca/ThankYouPage.jsx"/>
         <input type="hidden" name="_template" value="table"/>
         <input type="hidden" name="_captcha" value="false"></input>
 
