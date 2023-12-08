@@ -1,10 +1,10 @@
 import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 const Appointment = () => {
   const form = useRef();
-  const navigate = useNavigate();
+  const navigate = useHistory();
 
   const sendEmail = (e) => {
     e.preventDefault();
