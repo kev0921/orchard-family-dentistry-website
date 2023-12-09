@@ -32,7 +32,7 @@ const Contact = () => {
           <p className={`text-lg md:text-3xl py-4 text-black whitespace-wrap text-left`}>
           We are conveniently located near the Appleby Crossing Mall.
           </p>
-          <p className={`text-lg md:text-3xl py-4 text-black whitespace-wrap text-left`}>
+          <p className={`text-lg md:text-3xl md:py-4 text-black whitespace-wrap text-left`}>
           Visitors parking available underground and around the condo complex
           </p>
 
