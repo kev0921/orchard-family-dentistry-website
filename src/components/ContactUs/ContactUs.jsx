@@ -1,5 +1,5 @@
 import qualityServiceImg from "../../images/OrchardFarm.jpg";
-import map from "../../images/location.png";
+import map from "../../images/map.png";
 
 const Contact = () => {
 
