@@ -26,14 +26,17 @@ const Contact = () => {
         <img className={`md:w-0 h-1/8 w-full`} src={qualityServiceImg} alt="" />
         
         <div className="my-5 md:my-auto mx-10 md:w-4/5 md:mx-auto">
-          <h1 className={`mt-10 md:mt-0 md:my-auto text-5xl md:text-6xl text-green-800 md:font-semibold text-left`}>
+          <h1 className={`mt-10 md:mt-0 md:my-auto md:mb-6 text-5xl md:text-6xl text-green-800 md:font-semibold text-left`}>
             Your Trusted Local Dentist
           </h1>
-          <p className={`text-lg md:text-3xl py-8 text-black whitespace-wrap text-left`}>
+          <p className={`text-lg md:text-3xl py-4 text-black whitespace-wrap text-left`}>
           We are conveniently located near the Appleby Crossing Mall.
           </p>
+          <p className={`text-lg md:text-3xl py-4 text-black whitespace-wrap text-left`}>
+          Visitors parking available underground and around the condo complex
+          </p>
 
-          <p className={`text-lg md:text-3xl md:pt-8 text-black whitespace-wrap text-left`}>
+          <p className={`text-lg md:text-3xl md:pt-4 text-black whitespace-wrap text-left`}>
           Address: 5220 Dundas St #6, Burlington, ON L7L 0J4
           </p>
           <p className={`text-lg md:text-3xl text-black whitespace-wrap text-left`}>
