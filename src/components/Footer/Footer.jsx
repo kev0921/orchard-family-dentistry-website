@@ -48,10 +48,10 @@ const Footer = () => {
               <a href="/MeetUs">Meet Us</a>
             </li>
             <li className="py-0.5 hover:text-primary">
-              <a href="/dentalservices">Services</a>
+              <a href="/ContactUs">Contact Us</a>
             </li>
             <li className="py-0.5 hover:text-primary">
-              <a href="/ContactUs">Contact Us</a>
+              <a href="/privacypolicy">Privacy Policy</a>
             </li>
           </ul>
         </div>

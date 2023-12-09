@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import React from "react"; // Make sure to import React
+import React from "react";
 
 import Appointment from "./components/Appointment/Appointment";
 import Banner from "./components/Banner/Banner";
@@ -44,6 +44,7 @@ import CosmeticDentist from "./components/DentalServices/CosmeticDentist/Cosmeti
 import PreventativeCare from "./components/DentalServices/PreventiveCare";
 import Invisaline from "./components/DentalServices/Invisaline";
 import ThankYouPage from "./components/ThankYou/ThankYouPage";
+import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
 
 function App() {
   return (
@@ -204,6 +205,10 @@ function App() {
 
           <Route path="/thankyou">
             <ThankYouPage />
+          </Route>
+
+          <Route path="/privacypolicy">
+            <PrivacyPolicy />
           </Route>
 
           <Route path="*">
