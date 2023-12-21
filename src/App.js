@@ -42,7 +42,7 @@ import CosmeticDentist from "./components/DentalServices/CosmeticDentist/Cosmeti
   import MercuryFreeDentistry from "./components/DentalServices/CosmeticDentist/MercuryFreeDentistry";
   import TeethWhitening from "./components/DentalServices/CosmeticDentist/TeethWhitening";
 import PreventativeCare from "./components/DentalServices/PreventiveCare";
-import Invisaline from "./components/DentalServices/Invisaline";
+import Invisalign from "./components/DentalServices/Invisalign";
 import ThankYouPage from "./components/ThankYou/ThankYouPage";
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
 import SiteMap from "./components/SiteMap/SiteMap";
@@ -183,8 +183,8 @@ function App() {
                 <PreventativeCare />
               </Route>
 
-              <Route path="/dentalservices/invisaline">
-                <Invisaline />
+              <Route path="/dentalservices/invisalign">
+                <Invisalign />
               </Route>
 
             </Switch>

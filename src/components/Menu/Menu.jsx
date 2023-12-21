@@ -615,7 +615,7 @@ const Menu = () => {
                           </li>
                           <li>
                             <a
-                              href="/dentalservices/invisaline"
+                              href="/dentalservices/invisalign"
                               className="block px-4 py-2 hover:bg-gray-100"
                             >
                               Invisalign

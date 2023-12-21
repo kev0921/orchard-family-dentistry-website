@@ -16,7 +16,7 @@ const Offers = () => {
       <div className="bg-cover">
 
         {/* Student Discounts Banner */}
-        <div className="bg-sky-800 py-4 px-7 md:px-72 text-white text-center md:p-6">
+        <div className="bg-sky-800 py-4 px-7 md:px-20 text-white text-center md:p-6">
           <h1 className="text-5xl md:text-6xl mt-24 mb-5">
             Special Offers for All Patients
           </h1>
@@ -29,7 +29,7 @@ const Offers = () => {
 
         {/* First Animated Section */}
         <div className={`shadow-lg flex bg-sky-200 bg-cover bg-transform items-center transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
-          <div className={`md:px-40 flex flex-col justify-center md:w-3/4`}>
+          <div className={`md:px-10 flex flex-col justify-center md:w-3/4`}>
 
             <img className={`md:w-0 h-auto w-full`} src={qualityServiceImg} alt="tree" />
             <div className="px-7 py-5 md:w-6/7 md:px-0">
@@ -43,6 +43,9 @@ const Offers = () => {
             </p>
             <p className="text-2xl text-blue-900 whitespace-wrap text-center mx-auto">
               Includes two units of scaling, bitewings & exam.
+            </p>
+            <p className="text-3xl py-3 text-blue-900 whitespace-wrap text-center mx-auto">
+              Free Invisaline consultation.
             </p>
             <p className="text-1xl text-blue-900 whitespace-wrap text-center mx-auto">
               *Patient responsible for deductible & co-payment fees.
