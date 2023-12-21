@@ -9,7 +9,7 @@ const Offers = () => {
   useEffect(() => {
     setAnimate(true);
      // Initialize Google Tag Manager
-     TagManager.initialize({ gtmId: process.env.GTM_ID });
+     TagManager.initialize({ gtmId: 'AW-11416140347' });
   }, []);
 
   return (
