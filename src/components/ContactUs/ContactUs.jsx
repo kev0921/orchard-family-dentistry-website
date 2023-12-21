@@ -1,7 +1,7 @@
 import qualityServiceImg from "../../images/OrchardFarm.jpg";
 import map from "../../images/map.png";
 import TagManager from 'react-gtm-module';
-
+import React, { useEffect } from "react";
 
 const Contact = () => {
 
