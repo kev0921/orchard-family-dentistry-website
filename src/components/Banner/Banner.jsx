@@ -7,7 +7,7 @@ import TagManager from 'react-gtm-module';
 const Banner = () => {
   useEffect(() => {
     // Initialize Google Tag Manager
-    TagManager.initialize({ gtmId: 'AW-11416140347' });
+    TagManager.initialize({ gtmId: process.env.GTM_ID });
  }, []);
 
   return (
