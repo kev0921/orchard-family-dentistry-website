@@ -45,7 +45,7 @@ const Offers = () => {
               Includes two units of scaling, bitewings & exam.
             </p>
             <p className="text-3xl py-3 text-blue-900 whitespace-wrap text-center mx-auto">
-              Free Invisaline consultation.
+              Free Invisalign consultation.
             </p>
             <p className="text-1xl text-blue-900 whitespace-wrap text-center mx-auto">
               *Patient responsible for deductible & co-payment fees.
