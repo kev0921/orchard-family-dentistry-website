@@ -53,6 +53,9 @@ const Footer = () => {
             <li className="py-0.5 hover:text-primary">
               <a href="/privacypolicy">Privacy Policy</a>
             </li>
+            <li className="py-0.5 hover:text-primary">
+              <a href="/sitemap">Sitemap</a>
+            </li>
           </ul>
         </div>
       </div>
