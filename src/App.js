@@ -45,7 +45,6 @@ import PreventativeCare from "./components/DentalServices/PreventiveCare";
 import Invisaline from "./components/DentalServices/Invisaline";
 import ThankYouPage from "./components/ThankYou/ThankYouPage";
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
-import SiteMap from "./components/"
 
 function App() {
   return (
@@ -212,9 +211,6 @@ function App() {
             <PrivacyPolicy />
           </Route>
 
-          <Route path="/sitemap">
-            <PrivacyPolicy />
-          </Route>
 
           <Route path="*">
             <NotFound />
