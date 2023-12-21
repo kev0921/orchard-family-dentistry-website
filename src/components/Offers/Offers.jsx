@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import qualityServiceImg from "../../images/offers.jpg";
 import TagManager from 'react-gtm-module';
-
+import 'dotenv/config';
 
 const Offers = () => {
   const [animate, setAnimate] = useState(false);

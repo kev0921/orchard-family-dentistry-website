@@ -1,7 +1,7 @@
 import orchard from "../../images/OrchardFarm.jpg";
 import TagManager from 'react-gtm-module';
 import React, { useEffect } from "react";
-
+import 'dotenv/config';
 
 const ThankYouPage = () => {
 

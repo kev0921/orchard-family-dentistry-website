@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import banner from "../../images/Orchard-Banner.jpeg";
 import logo from "../../images/logo192.png";
 import TagManager from 'react-gtm-module';
+import 'dotenv/config';
 
 const Banner = () => {
   useEffect(() => {
