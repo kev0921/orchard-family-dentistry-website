@@ -2,23 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import banner from "../../images/Orchard-Banner.jpeg";
 import logo from "../../images/logo192.png";
+import TagManager from 'react-gtm-module';
 
 const Banner = () => {
+  useEffect(() => {
+    // Initialize Google Tag Manager
+    TagManager.initialize({ gtmId: process.env.GTM_ID });
+ }, []);
+
   return (
     <div>
-      <>
-      {/* Google tag (gtag.js) */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11416140347"></script>
-      <script>
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'AW-11416140347');
-        `}
-      </script>
-    </>
       <div
         className="bg-center bg-cover py-20 md:py-2 lg:py-2 xl:py-2 md:shadow-xl md:z-6 relative flex flex-col justify-center items-center bg-black opacity-100"
         style={{

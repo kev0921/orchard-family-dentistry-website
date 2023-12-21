@@ -1,28 +1,19 @@
 import React, { useState, useEffect } from "react";
 import qualityServiceImg from "../../images/offers.jpg";
+import TagManager from 'react-gtm-module';
+
 
 const Offers = () => {
   const [animate, setAnimate] = useState(false);
 
   useEffect(() => {
     setAnimate(true);
+     // Initialize Google Tag Manager
+     TagManager.initialize({ gtmId: process.env.GTM_ID });
   }, []);
 
   return (
     <div>
-      <>
-      {/* Google tag (gtag.js) */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11416140347"></script>
-      <script>
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'AW-11416140347');
-        `}
-      </script>
-    </>
       <div className="bg-cover">
 
         {/* Student Discounts Banner */}

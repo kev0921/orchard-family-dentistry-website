@@ -1,6 +1,7 @@
 import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
 import { useHistory } from 'react-router-dom';
+import TagManager from 'react-gtm-module';
 
 const Appointment = () => {
   const form = useRef();
@@ -18,21 +19,13 @@ const Appointment = () => {
       });
   };
 
+  useEffect(() => {
+    // Initialize Google Tag Manager
+    TagManager.initialize({ gtmId: process.env.GTM_ID });
+ }, []);
+
   return (
     <div>
-      <>
-      {/* Google tag (gtag.js) */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11416140347"></script>
-      <script>
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'AW-11416140347');
-        `}
-      </script>
-    </>
       <div className="container py-16">
         <form ref={form} onSubmit={sendEmail}>
           <h1 className="text-4xl text-center font-bold ">

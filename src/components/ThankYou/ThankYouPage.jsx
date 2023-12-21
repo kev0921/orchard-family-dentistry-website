@@ -1,22 +1,16 @@
 import orchard from "../../images/OrchardFarm.jpg";
+import TagManager from 'react-gtm-module';
+
 
 const ThankYouPage = () => {
+
+  useEffect(() => {
+    // Initialize Google Tag Manager
+    TagManager.initialize({ gtmId: process.env.GTM_ID });
+ }, []);
+
   return (
   <div>
-    <>
-    {/* Google tag (gtag.js) */}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11416140347"></script>
-    <script>
-      {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'AW-11416140347');
-      `}
-    </script>
-  </>
-
   {/* Mobile Screen */}
   <section>
   <div className={`md:hidden relative overflow-hidden bg-sky-200`}>
