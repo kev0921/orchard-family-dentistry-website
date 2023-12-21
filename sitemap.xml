@@ -1,13 +1,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Home Page -->
   <url>
     <loc>https://orchardfamilydentistry.ca/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Patient Information Section -->
   <url>
     <loc>https://orchardfamilydentistry.ca/patientinformation</loc>
     <changefreq>monthly</changefreq>
@@ -54,21 +51,18 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Offers Page -->
   <url>
     <loc>https://orchardfamilydentistry.ca/offers</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- Meet Us Page -->
   <url>
     <loc>https://orchardfamilydentistry.ca/meetus</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- Dental Services Section -->
   <url>
     <loc>https://orchardfamilydentistry.ca/dentalservices</loc>
     <changefreq>monthly</changefreq>
