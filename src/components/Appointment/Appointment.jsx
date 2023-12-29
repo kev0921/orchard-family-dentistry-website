@@ -29,10 +29,10 @@ const Appointment = () => {
       <div className="container py-16">
         <form ref={form} onSubmit={sendEmail}>
           <h1 className="text-4xl text-center font-bold ">
-            Drop your Appointment
+            Book your Appointment
           </h1>
           <p className="text-gray-400 py-2 text-center">
-            Have a question or just want to say hi? We'd love to hear from you.
+            Want to book an appointment or have a question? We'd love to hear from you.
           </p>
           <label for="name">Full name:</label>
           <input
@@ -67,7 +67,7 @@ const Appointment = () => {
           />
           <br />
           <br />
-          <label for="date">Date:</label>
+          <label for="date">Requested Date:</label>
           <input
             className="border-opacity-100 w-full border px-4 border-gray-800 py-2"
             type="text"
@@ -86,7 +86,7 @@ const Appointment = () => {
             type="message"
             id="message"
             name="message"
-            placeholder="Reason for your visit"
+            placeholder="Reason for your visit and preferred time"
             required
           />
           <br />
