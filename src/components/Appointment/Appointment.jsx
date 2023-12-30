@@ -11,7 +11,7 @@ const Appointment = () => {
     e.preventDefault();
     navigate.push('/thankyou');
 
-    emailjs.sendForm('service_65i5bdp', 'template_cibrusi', form.current, 'iNrzM-8pnRp1ikVGR')
+    emailjs.sendForm('service_65i5bdp', 'template_n57y3yo', form.current, 'iNrzM-8pnRp1ikVGR')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
