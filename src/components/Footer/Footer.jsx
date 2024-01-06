@@ -16,16 +16,16 @@ const Footer = () => {
             905-315-9937
           </p>
           <div className="text-primary text-2xl flex justify-center lg:justify-start">
-            <a rel="noreferrer" target="_blank" href="https://www.facebook.com/">
+            <a rel="noreferrer" target="_blank" href="https://www.facebook.com/profile.php?id=61553787269565">
               <i className="fab fa-facebook-square ml-2"></i>
             </a>
-            <a rel="noreferrer" target="_blank" href="https://www.instagram.com/">
+            <a rel="noreferrer" target="_blank" href="https://www.instagram.com/orchardfamdentistry/">
               <i className="fab fa-instagram-square ml-2"></i>
             </a>
             <a rel="noreferrer" target="_blank" href="https://twitter.com/">
               <i className="fab fa-twitter-square ml-2"></i>
             </a>
-            <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/">
+            <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/company/orchardfamilydentistry/">
               <i className="fab fa-linkedin ml-2"></i>
             </a>
           </div>
