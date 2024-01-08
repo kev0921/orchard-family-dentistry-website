@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import family1 from "../../images/family1.jpg"
+import family1 from "../../images/family1.jpg";
+import family3 from "../../images/family3.jpeg";
 
 const QualityService = () => {
   const [animate, setAnimate] = useState(false);
@@ -28,7 +29,7 @@ const QualityService = () => {
     // Mobile Screen
     <section>
       <div className={`md:hidden relative overflow-hidden bg-sky-200 transform  transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
-        <img className="w-full" src={family1} alt="Quality Service" />
+        <img className="w-full" src={family3} alt="Quality Service" />
         <div className={`absolute inset-0 flex flex-col justify-center px-5 py-12 ext-center md:text-left bg-opacity-75 bg-white`}>
           <h1 className={`text-4xl text-blue-900 mb-4 text-center`}>
             Trusted, Personalized & Affordable Dental Care
@@ -76,7 +77,7 @@ const QualityService = () => {
           </p>
 
         </div>
-        <img className={`md:w-1/4 h-auto w-1/3 object-cover`} src={family1} alt="" />
+        <img className={`md:w-1/4 h-auto w-1/3 object-cover`} src={family3} alt="" />
       </div>
       </section>
 
