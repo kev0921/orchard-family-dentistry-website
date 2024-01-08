@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import family1 from "../../images/family1.jpg";
 import family3 from "../../images/family3.jpeg";
 
 const QualityService = () => {
