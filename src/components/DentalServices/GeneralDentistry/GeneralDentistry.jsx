@@ -75,7 +75,7 @@ const GeneralDentistry = () => {
               </div>
             </a>
 
-            <a href="/DentalServices/RestorativeDentistry/Crowns">
+            <a href="/DentalServices/GeneralDentistry/tmdjawpain">
               <div className="p-12 md:p-8 bg-white rounded overflow-hidden shadow-lg p-4 md:my-1.5 mx-1.5 h-[95%] hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={jaw} alt="crown" />

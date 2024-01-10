@@ -46,6 +46,7 @@ import Invisalign from "./components/DentalServices/Invisalign";
 import ThankYouPage from "./components/ThankYou/ThankYouPage";
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
 import SiteMap from "./components/SiteMap/SiteMap";
+import TmdJawPain from "./components/DentalServices/TmdJawPain";
 
 function App() {
   return (
@@ -136,6 +137,9 @@ function App() {
                   </Route>
                   <Route path="/dentalservices/generaldentistry/rootcanaltherapy">
                     <RootCanalTherapy />
+                  </Route>
+                  <Route path="/dentalservices/generaldentistry/tmdjawpain">
+                    <TmdJawPain />
                   </Route>
               </Route>
 

@@ -205,17 +205,7 @@ const DentalServices = () => {
           {/* TMD (Jaw Pain) Therapy */}
           <div className="my-5 w-full md:w-1/3">
             
-            <a href="/askfja;sldkfjals;dkfjals;kfjl;askdfjal;sdkfjals;kfjl;
-            sakdfjal;skdfjasld;kfjasl;fkjsal;dfkjasd;flkjasdfl;kajsfl
-            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
-            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
-            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
-            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
-            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
-            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
-            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
-            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
-            jsadf;lkjdasf;lkjsadfl;ksajdfl;kajsfdasflj;ksajdf;lkasjf;lsakjf">
+            <a href="/DentalServices/GeneralDentistry/tmdjawpain">
 
               <div className="rounded overflow-hidden shadow-lg p-4 hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
