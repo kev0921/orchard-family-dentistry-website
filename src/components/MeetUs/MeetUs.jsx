@@ -1,6 +1,8 @@
 import React from "react";
 import Orchard2 from "../../images/Orchard2.jpg";
 import EmployeeCard from "./EmployeeCard";
+import DavidHu from "../../images/DavidHu.jpg";
+import DominicLing from "../../images/DLing.jpg";
 
 const QualityService = () => {
   return (
@@ -67,29 +69,17 @@ const QualityService = () => {
 
       {/* Employees Section */}
       <div className="flex justify-center py-10">
-        <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 xl-grid-cols-4 2xl-grid-cols-5 mx-auto">
+        <div className="max-l-4xl max-w-7xl mx-auto">
         <EmployeeCard
-            imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+            imgSrc={DavidHu}
+            content="Dr. David Hu"
+            bio="Dr. David Hu completed his Bachelor's of Health Sciences at McMaster University before obtaining his Doctor of Dental Surgery degree at the University of Toronto. He enjoys helping patients feel more confident in their smiles and overall oral health by providing the best possible care for them. He has an affinity for cosmetic and aesthetic dentistry, Invisalign treatment, and impacted wisdom teeth extractions. Dr. Hu likes to spend his free time playing basketball, doing street photography, or painting."
           />
 
           <EmployeeCard
-            imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
-          />
-
-          <EmployeeCard
-            imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
-          />
-          
-          <EmployeeCard
-            imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+            imgSrc={DominicLing}
+            content="Dr. Dominic Ling"
+            bio="Dr. Dominic Ling initially studied biochemistry and chemical engineering at the University of Ottawa before relocating to Toronto in 2017 to begin his Doctor of Dental Surgery degree at the University of Toronto. After graduating, Dr. Ling moved to Northern Ontario, where he provided dental care to underserved communities. While working up north, he became proficient in saving severely compromised teeth with root canals, restorations and crowns, doing full mouth extractions, and working with anxious patients unfamiliar with the dental setting. Growing up, Dr. Ling spent a lot of time working as a tutor or a teaching assistant, so teaching others is something he’s used to. He believes the best treatment is provided when patients understand their oral health and can make informed decisions about their treatment. In his spare time, he enjoys hanging out with friends and family, going to the gym, listening to live music, and watching anime."
           />
           {/* Add more EmployeeCard components here */}
         </div>
