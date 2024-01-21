@@ -14,7 +14,7 @@ const EmployeeCard = ({ imgSrc, content, bio }) => {
       style={{ zIndex: isBioVisible ? 1 : 'auto' }}
     >
       <div className="relative overflow-hidden bg-cover bg-no-repeat">
-        <img className="h-full w-full rounded-t-lg object-cover bg-cover" src={imgSrc} alt="" />
+        <img className="max-h-80 w-full rounded-t-lg object-cover bg-cover" src={imgSrc} alt="" />
       </div>
       
       <div className="relative p-6">
