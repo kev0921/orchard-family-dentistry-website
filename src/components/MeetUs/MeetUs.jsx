@@ -3,6 +3,7 @@ import Orchard2 from "../../images/Orchard2.jpg";
 import EmployeeCard from "./EmployeeCard";
 import DavidHu from "../../images/DavidHu.jpg";
 import DominicLing from "../../images/DLing.jpg";
+import MerajSultana from "../../images/MerajSultana.jpg"
 
 const QualityService = () => {
   return (
@@ -99,25 +100,25 @@ const QualityService = () => {
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+            bio=""
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+            bio=""
           />  
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+            bio=""
           />
           
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+            bio=""
           />
           {/* Add more EmployeeCard components here */}
         </div>
@@ -135,27 +136,27 @@ const QualityService = () => {
       <div className="flex justify-center py-10">
         <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 xl-grid-cols-4 2xl-grid-cols-5 mx-auto">
           <EmployeeCard
-            imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
+            imgSrc={MerajSultana}
             content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+            bio=""
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+            bio=""
           />    
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+            bio=""
           />
           
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+            bio=""
           />
           {/* Add more EmployeeCard components here */}
         </div>
@@ -175,25 +176,25 @@ const QualityService = () => {
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+            bio=""
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+            bio=""
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+            bio=""
           />
           
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content=""
-            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+            bio=""
           />
           {/* Add more EmployeeCard components here */}
         </div>

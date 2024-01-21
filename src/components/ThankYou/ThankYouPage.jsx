@@ -20,7 +20,7 @@ const ThankYouPage = () => {
         Thank you for your time!
       </h1>
       <p className={`text-base text-blue-900 leading-relaxed text-center`}>
-        We will respond back to you as soon as possible to confirm appointment dentails.
+        We will respond back to you as soon as possible to confirm appointment details.
       </p>
     </div>
   </div>
