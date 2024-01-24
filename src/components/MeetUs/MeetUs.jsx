@@ -114,7 +114,7 @@ const QualityService = () => {
 
           <EmployeeCard
             imgSrc={Michelle}
-            content="Michelle Ardiles"
+            content="Michelle"
             bio="Michelle has over 7 years of experience working in customer service and is fluent in English and Spanish. In her free time, she enjoys baking, dancing, and lifting heavy weights at the gym! Michelle She is best described as dedicated, organized, personable, and a bit of a perfectionist! Traits that will serve her well as Miis the proud aunt of five nieces and two nephews - she calls them her ‘absolute heart’. She is best described as dedicated, organized, personable, and a bit of a perfectionist! Traits that serve her well for providing exceptional customer service for all our patients."
           />
 
@@ -141,7 +141,7 @@ const QualityService = () => {
         <div className="max-l-4xl max-w-7xl mx-auto">
           <EmployeeCard
             imgSrc={MerajSultana}
-            content="Meraj Sultana"
+            content="Meraj"
             bio="Meraj Sultana is a dedicated dental hygienist who received her Dental Hygiene Diploma from Southern Ontario Dental College with first class honors. She is a member of the College Of Dental Hygienists of Ontario. With a passion for promoting oral health and years of clinical experience, she is committed to providing personalized care, educating patients on proper oral hygiene practices, and ensuring a comfortable dental experience."
           />
 
