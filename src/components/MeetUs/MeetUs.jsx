@@ -4,6 +4,9 @@ import EmployeeCard from "./EmployeeCard";
 import DavidHu from "../../images/DavidHu.jpg";
 import DominicLing from "../../images/DLing.jpg";
 import MerajSultana from "../../images/MerajSultana.jpg"
+import Halina from "../../images/Halina.jpg"
+import Michelle from "../../images/Michelle.jpg"
+import Krystina from "../../images/Krystina.jpg"
 
 const QualityService = () => {
   return (
@@ -87,27 +90,33 @@ const QualityService = () => {
       </div>
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
-        <div className="md:px-40 md:w-3/4">
+        <div className=" md:px-40 md:w-3/4">
           <h1 className="px-2 md:px-0 md:my-9 text-5xl md:text-6xl text-blue-900 text-center mt-12 md:mt-32">
-            Meet Our Dental Assistants
+            Meet Our Admin Team
           </h1>
         </div>
       </div>
 
       {/* Employees Section */}
-      <div className="flex justify-center py-10">
-        <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 xl-grid-cols-4 2xl-grid-cols-5 mx-auto">
+      <div className="flex justify-center py-10 md:mb-32">
+        <div className="max-l-4xl max-w-7xl mx-auto">
           <EmployeeCard
-            imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content=""
-            bio=""
+            imgSrc={Halina}
+            content="Hali"
+            bio="Hali had graduated from Dental College in 2004 and began her dental career as a Registered Dental
+            Assistant working in general practice, oral surgery and periodontal specialty offices. Then ten years ago
+            she started her current role as an office manager, and she’s continuing it with Orchard Family Dentistry
+            since October 2023. She is passionate about getting to know all of our patients and making sure they
+            receive quality service and attention. Hali helps our practice to run smoothly and efficiently by making
+            sure our team has everything needed to perform successfully. In her spare time Hali loves to garden,
+            travel and spending time in nature, hiking trails with her two dogs."
           />
 
           <EmployeeCard
-            imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content=""
-            bio=""
-          />  
+            imgSrc={Michelle}
+            content="Michelle Ardiles"
+            bio="Michelle has over 7 years of experience working in customer service and is fluent in English and Spanish. In her free time, she enjoys baking, dancing, and lifting heavy weights at the gym! Michelle She is best described as dedicated, organized, personable, and a bit of a perfectionist! Traits that will serve her well as Miis the proud aunt of five nieces and two nephews - she calls them her ‘absolute heart’. She is best described as dedicated, organized, personable, and a bit of a perfectionist! Traits that serve her well for providing exceptional customer service for all our patients."
+          />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
@@ -115,11 +124,6 @@ const QualityService = () => {
             bio=""
           />
           
-          <EmployeeCard
-            imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content=""
-            bio=""
-          />
           {/* Add more EmployeeCard components here */}
         </div>
       </div>
@@ -134,11 +138,11 @@ const QualityService = () => {
 
       {/* Employees Section */}
       <div className="flex justify-center py-10">
-        <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 xl-grid-cols-4 2xl-grid-cols-5 mx-auto">
+        <div className="max-l-4xl max-w-7xl mx-auto">
           <EmployeeCard
             imgSrc={MerajSultana}
-            content=""
-            bio=""
+            content="Meraj Sultana"
+            bio="Meraj Sultana is a dedicated dental hygienist who received her Dental Hygiene Diploma from Southern Ontario Dental College with first class honors. She is a member of the College Of Dental Hygienists of Ontario. With a passion for promoting oral health and years of clinical experience, she is committed to providing personalized care, educating patients on proper oral hygiene practices, and ensuring a comfortable dental experience."
           />
 
           <EmployeeCard
@@ -153,37 +157,39 @@ const QualityService = () => {
             bio=""
           />
           
-          <EmployeeCard
-            imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content=""
-            bio=""
-          />
           {/* Add more EmployeeCard components here */}
         </div>
       </div>
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
-        <div className=" md:px-40 md:w-3/4">
+        <div className="md:px-40 md:w-3/4">
           <h1 className="px-2 md:px-0 md:my-9 text-5xl md:text-6xl text-blue-900 text-center mt-12 md:mt-32">
-            Meet Our Receptionists
+            Meet Our Dental Assistants
           </h1>
         </div>
       </div>
 
       {/* Employees Section */}
-      <div className="flex justify-center py-10 md:mb-32">
-        <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 xl-grid-cols-4 2xl-grid-cols-5 mx-auto">
+      <div className="flex justify-center py-10">
+        <div className="max-l-4xl max-w-7xl mx-auto md:mb-32">
           <EmployeeCard
-            imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content=""
-            bio=""
+            imgSrc={Krystina}
+            content="Krystina"
+            bio="Krystina is a Certified Dental Assistant who graduated from the Niagara College Dental Assisting
+            program. She also has obtained an advanced diploma in business and media from Humber College. She
+            is patient-focused and driven to provide a comfortable experience for patients along with the highest
+            quality of care. Krystina is also cross trained on the administrative side of our practice to help book and
+            welcome our patients. She continues to study and keep up with the latest methods, materials, and
+            emerging technologies in the dental field. In her spare time, Krystina dances Ballet, enjoys trips to
+            Montreal, shopping and loves to spend time with her pets. Krystina is grateful to be working with such
+            an amazing team at Orchard Family Dentistry."
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content=""
             bio=""
-          />
+          />  
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
@@ -191,11 +197,6 @@ const QualityService = () => {
             bio=""
           />
           
-          <EmployeeCard
-            imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content=""
-            bio=""
-          />
           {/* Add more EmployeeCard components here */}
         </div>
       </div>
