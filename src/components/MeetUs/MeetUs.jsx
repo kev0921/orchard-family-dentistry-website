@@ -65,7 +65,7 @@ const QualityService = () => {
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
         <div className="md:px-40 md:w-3/4">
-          <h1 className="px-2 md:px-0 md:my-9 text-5xl md:text-6xl text-blue-900 text-center mt-12 md:mt-32">
+          <h1 className="px-2 md:px-0 md:my-9 text-5xl md:text-6xl text-blue-900 text-center mt-12 md:mt-20">
             Meet Our Doctors
           </h1>
         </div>
@@ -91,14 +91,14 @@ const QualityService = () => {
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
         <div className=" md:px-40 md:w-3/4">
-          <h1 className="px-2 md:px-0 md:my-9 text-5xl md:text-6xl text-blue-900 text-center mt-12 md:mt-32">
+          <h1 className="px-2 md:px-0 md:my-9 text-5xl md:text-6xl text-blue-900 text-center mt-12">
             Meet Our Admin Team
           </h1>
         </div>
       </div>
 
       {/* Employees Section */}
-      <div className="flex justify-center py-10 md:mb-32">
+      <div className="flex justify-center py-10">
         <div className="max-l-4xl max-w-7xl mx-auto">
           <EmployeeCard
             imgSrc={Halina}
@@ -130,7 +130,7 @@ const QualityService = () => {
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
         <div className="md:px-40 md:w-3/4">
-          <h1 className="px-2 md:px-0 md:my-9 text-5xl md:text-6xl text-blue-900 text-center mt-12 md:mt-32">
+          <h1 className="px-2 md:px-0 md:my-9 text-5xl md:text-6xl text-blue-900 text-center mt-12">
             Meet Our Hygenists
           </h1>
         </div>
@@ -157,7 +157,7 @@ const QualityService = () => {
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
         <div className="md:px-40 md:w-3/4">
-          <h1 className="px-2 md:px-0 md:my-9 text-5xl md:text-6xl text-blue-900 text-center mt-12 md:mt-32">
+          <h1 className="px-2 md:px-0 md:my-9 text-5xl md:text-6xl text-blue-900 text-center mt-12">
             Meet Our Dental Assistants
           </h1>
         </div>
@@ -165,7 +165,7 @@ const QualityService = () => {
 
       {/* Employees Section */}
       <div className="flex justify-center py-10">
-        <div className="max-l-4xl max-w-7xl mx-auto md:mb-32">
+        <div className="max-l-4xl max-w-7xl mx-auto">
           <EmployeeCard
             imgSrc={Krystina}
             content="Krystina"
