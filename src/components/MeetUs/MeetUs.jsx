@@ -115,7 +115,10 @@ const QualityService = () => {
           <EmployeeCard
             imgSrc={Michelle}
             content="Michelle"
-            bio="Michelle has over 7 years of experience working in customer service and is fluent in English and Spanish. In her free time, she enjoys baking, dancing, and lifting heavy weights at the gym! Michelle She is best described as dedicated, organized, personable, and a bit of a perfectionist! Traits that will serve her well as Miis the proud aunt of five nieces and two nephews - she calls them her ‘absolute heart’. She is best described as dedicated, organized, personable, and a bit of a perfectionist! Traits that serve her well for providing exceptional customer service for all our patients."
+            bio="Michelle has over 7 years of experience working in customer service and is fluent in English and Spanish. 
+            In her free time, she enjoys baking, dancing, and lifting heavy weights at the gym! Michelle is the proud aunt of 
+            five nieces and two nephews - she calls them her 'absolute heart'. She is best described as dedicated, organized, personable, 
+            and a bit of a perfectionist! Traits that will serve her well for providing exceptional customer service for all our patients."
           />
 
           <EmployeeCard
