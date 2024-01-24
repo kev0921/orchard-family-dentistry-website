@@ -72,7 +72,7 @@ const QualityService = () => {
       </div>
 
       {/* Employees Section */}
-      <div className="flex justify-center py-10">
+      <div className="flex justify-center py-10 mx-auto">
         <div className="mx-auto">
         <EmployeeCard
             imgSrc={DavidHu}
@@ -98,7 +98,7 @@ const QualityService = () => {
       </div>
 
       {/* Employees Section */}
-      <div className="flex justify-center py-10">
+      <div className="flex justify-center py-10 mx-auto">
         <div className="mx-auto">
           <EmployeeCard
             imgSrc={Halina}
@@ -140,7 +140,7 @@ const QualityService = () => {
       </div>
 
       {/* Employees Section */}
-      <div className="flex justify-center py-10">
+      <div className="flex justify-center py-10 mx-auto">
         <div className="mx-auto">
           <EmployeeCard
             imgSrc={MerajSultana}
@@ -167,7 +167,7 @@ const QualityService = () => {
       </div>
 
       {/* Employees Section */}
-      <div className="flex justify-center py-10">
+      <div className="flex justify-center py-10 mx-auto">
         <div className="mx-auto">
           <EmployeeCard
             imgSrc={Krystina}
