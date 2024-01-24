@@ -150,12 +150,6 @@ const QualityService = () => {
             content=""
             bio=""
           />    
-
-          <EmployeeCard
-            imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content=""
-            bio=""
-          />
           
           {/* Add more EmployeeCard components here */}
         </div>
@@ -190,12 +184,6 @@ const QualityService = () => {
             content=""
             bio=""
           />  
-
-          <EmployeeCard
-            imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content=""
-            bio=""
-          />
           
           {/* Add more EmployeeCard components here */}
         </div>
